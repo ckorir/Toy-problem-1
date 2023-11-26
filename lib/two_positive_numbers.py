@@ -11,5 +11,6 @@ a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 c = int(input("Enter third number: "))
 
+# Calculate the result by calling the function
 result = two_positive(a, b, c)
 print(f"The result is: {result}")
