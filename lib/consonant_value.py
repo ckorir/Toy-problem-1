@@ -22,9 +22,9 @@ def solve(a):
     return max_value
 
 # Get user input
-value = input("Enter a word in lowercase: ")
+value = input("Enter a word in lowercase with no spaces: ")
 
 # Call function for calculating
 result = solve(value)
-print(f"Highest value of consonant is: {result}")
+print(f"Highest value of consonant substring is: {result}")
 
